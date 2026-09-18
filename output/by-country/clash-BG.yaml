@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 213.183.63.60
-  port: 9029
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 192.145.31.5
   port: 8443
   udp: true
@@ -20,8 +13,8 @@ proxies:
   tls: true
   servername: neth9.lunariai.ru
   skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  client-fingerprint: firefox
+- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 192.145.31.5
   port: 443
   udp: true
@@ -30,28 +23,21 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
   server: 213.183.63.60
   port: 9061
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 4R3hUfZ2FHhDmNcP
-- name: 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
-  server: 213.183.63.60
-  port: 9049
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: PRBf4BS2HvJqtWxY
-- name: 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
   server: 213.183.63.60
   port: 9098
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: aLpQtfEZe445QyHk
-- name: 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
   server: 193.148.59.178
   port: 443
   udp: true
@@ -63,21 +49,61 @@ proxies:
     public-key: -GMpCber8qtrKzJbwvpLcwlIhOy-5zS66u_x9lLvIjE
     short-id: e3daad69
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
-  server: 131.123.39.29
+  client-fingerprint: chrome
+- name: 🇧🇬 保加利亚 (Bulgaria) 06 - xiaohe
+  server: 147.90.26.37
   port: 443
   udp: true
   type: vless
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /web?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
+  server: 185.125.103.62
+  port: 8082
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tags/photos/info?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
+  server: 87.120.196.212
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5561acfb-0adc-4c76-bfbf-767a76c7cbf0
   flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo
-    short-id: 84be686ea1d16478
-  servername: sheetpeek.com
-  client-fingerprint: chrome
+  servername: holo-stream.videocactus.xyz
+  skip-cert-verify: false
+  client-fingerprint: firefox
 - name: 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
+  server: 31.59.121.156
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /go/library/channel?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe
   server: 144.31.50.236
   port: 443
   udp: true
@@ -89,7 +115,7 @@ proxies:
     public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
     short-id: bbe46bd8f6b96839
   servername: yandex.ru
-  client-fingerprint: chrome
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -104,6 +130,7 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -118,5 +145,6 @@ proxy-groups:
   - 🇧🇬 保加利亚 (Bulgaria) 07 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 08 - xiaohe
   - 🇧🇬 保加利亚 (Bulgaria) 09 - xiaohe
+  - 🇧🇬 保加利亚 (Bulgaria) 10 - xiaohe
 rules:
 - MATCH,PROXIES
