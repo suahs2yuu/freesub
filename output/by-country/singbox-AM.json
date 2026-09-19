@@ -12,28 +12,6 @@
       "tls": {
         "enabled": true,
         "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "rAyAn-007.nAsTaRaN.DpDnS.OrG"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe",
-      "server": "mybb.com",
-      "server_port": 443,
-      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -50,8 +28,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇲 亚美尼亚 (Armenia) 03 - xiaohe",
-      "server": "aotocon.ggisopi.su",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 02 - xiaohe",
+      "server": "87.121.47.179",
       "server_port": 443,
       "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
       "flow": "xtls-rprx-vision",
@@ -66,6 +44,25 @@
           "enabled": true,
           "public_key": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 03 - xiaohe",
+      "server": "165.232.39.212",
+      "server_port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/html/shows?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },

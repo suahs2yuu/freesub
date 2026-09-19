@@ -17,20 +17,12 @@
     {
       "type": "vless",
       "tag": "🇺🇿 乌兹别克斯坦 (Uzbekistan) 02 - xiaohe",
-      "server": "104.18.80.149",
-      "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-4017ea8bea78",
-      "tls": {
-        "enabled": true,
-        "server_name": "zeus-panel-mvtum1.mahdiharchegani.workers.dev",
-        "insecure": false
-      },
+      "server": "189.74.97.43",
+      "server_port": 2087,
+      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
       "transport": {
         "type": "ws",
-        "path": "/stream/PANEL_ZEUS/4017ea8bea78/loc-4fp=unsafe",
-        "headers": {
-          "Host": "zeus-panel-mvtum1.mahdiharchegani.workers.dev"
-        }
+        "path": "/73b6faea2d00"
       }
     },
     {
@@ -41,7 +33,7 @@
       "uuid": "50414e45-4c5f-5a45-5553-4eef5adc237a",
       "transport": {
         "type": "ws",
-        "path": "/stream/PANEL_ZEUS/4eef5adc237a/loc-1 ",
+        "path": "/stream/PANEL_ZEUS/4eef5adc237a/loc-1",
         "headers": {
           "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
         }
@@ -50,12 +42,24 @@
     {
       "type": "vless",
       "tag": "🇺🇿 乌兹别克斯坦 (Uzbekistan) 04 - xiaohe",
-      "server": "189.74.97.43",
-      "server_port": 2087,
-      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
+      "server": "104.25.155.45",
+      "server_port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-4eef5adc237a",
+      "tls": {
+        "enabled": true,
+        "server_name": "r5zenrelur2s.pqzdileiu8es.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/73b6faea2d00"
+        "path": "/stream/PANEL_ZEUS/4eef5adc237a/loc-1 ",
+        "headers": {
+          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
+        }
       }
     },
     {

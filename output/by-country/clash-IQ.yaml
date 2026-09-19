@@ -5,16 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 188.114.97.6
-  port: 8080
+  server: 104.21.70.21
+  port: 443
   udp: true
   type: vless
-  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  tls: true
+  servername: fornewiran.ade-1000.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/ERYN0G44hia16zhR
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
     headers:
-      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+      Host: fornewiran.ade-1000.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
