@@ -37,31 +37,8 @@ proxies:
   tls: true
   servername: estproxy4.lockdwn.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: edge
 - name: 🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe
-  server: 109.206.241.10
-  port: 449
-  udp: true
-  type: trojan
-  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
-  sni: 109.206.241.10
-  skip-cert-verify: true
-- name: 🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe
-  server: 5.101.114.44
-  port: 2053
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /collection/directory?ed=2560
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
   server: ee1.sferavpn.pro
   port: 443
   udp: true
@@ -71,6 +48,27 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+- name: 🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe
+  server: 109.206.241.10
+  port: 449
+  udp: true
+  type: trojan
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  sni: russiapower.accesscam.org
+  skip-cert-verify: true
+- name: 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
+  server: 185.255.179.11
+  port: 9443
+  udp: true
+  type: vless
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  tls: true
+  servername: hub-ee-01.hanvpn.cc
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ee01-grpc-8e47a
 - name: 🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe
   server: 95.85.224.17
   port: 443
@@ -82,7 +80,28 @@ proxies:
   reality-opts:
     public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
   servername: est1313.ggisopi.su
-  client-fingerprint: firefox
+  client-fingerprint: ios
+- name: 🇪🇪 爱沙尼亚 (Estonia) 08 - xiaohe
+  server: estomin1.vodniki.monster
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: r1MW0o1DsC6EEWN-KPKnoXszb1trxlKShRIgOpxqHBk
+    short-id: d98e7afec9c0c359
+  servername: estomin1.vodniki.monster
+  client-fingerprint: random
+- name: 🇪🇪 爱沙尼亚 (Estonia) 09 - xiaohe
+  server: tishina-axe.dedyn.io
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: 319ed24b1c7203aa
+  sni: tishina-axe.dedyn.io
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -95,6 +114,8 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 08 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -107,5 +128,7 @@ proxy-groups:
   - 🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
   - 🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 08 - xiaohe
+  - 🇪🇪 爱沙尼亚 (Estonia) 09 - xiaohe
 rules:
 - MATCH,PROXIES
