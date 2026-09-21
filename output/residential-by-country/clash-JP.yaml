@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 203.137.165.164
-  port: 57554
+  server: 85.121.50.16
+  port: 443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /p/docs/soft?ed=2560
+    path: /friends/go.php?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
