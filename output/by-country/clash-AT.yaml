@@ -25,7 +25,7 @@ proxies:
   servername: at.quattro-tech.ru
   client-fingerprint: chrome
 - name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  server: austria-dedic1.failspace.top
+  server: 50.7.184.190
   port: 443
   udp: true
   type: vless
