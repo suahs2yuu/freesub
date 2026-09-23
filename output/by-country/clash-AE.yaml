@@ -5,25 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 172.67.221.230
-  port: 443
+  server: 172.67.192.84
+  port: 2095
   udp: true
   type: vless
-  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
-  tls: true
-  servername: novantunnel.tech
-  skip-cert-verify: false
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
   network: ws
   ws-opts:
-    path: /Novan-AE9
+    path: /juvsrnmgdu8i0179k5
     headers:
-      Host: novantunnel.tech
+      Host: index.harmonica02.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   server: 31.58.181.88
   port: 8443
   udp: true
   type: vless
-  uuid: 4a239f83-479c-4790-a9c7-fe7ddd483a4c
+  uuid: 4b2fbd30-1a64-4b27-aea9-713d62c9e69b
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -52,9 +49,9 @@ proxies:
     public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
     short-id: a1b2c3d4e5f67890
   servername: dzen.ru
-  client-fingerprint: ios
+  client-fingerprint: qq
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  server: 85.204.107.178
+  server: 85.204.107.175
   port: 8080
   udp: true
   type: hysteria2
