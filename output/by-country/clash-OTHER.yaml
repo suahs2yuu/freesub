@@ -6,65 +6,440 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
   server: 188.114.97.6
-  port: 2082
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 188.114.97.6
-  port: 2082
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 03 - xiaohe
-  server: 188.114.97.6
-  port: 2082
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 04 - xiaohe
-  server: netlivpn5002.whwbbb.workers.dev
   port: 443
   udp: true
   type: vless
-  uuid: a88e61a0-2b38-f6df-c5c7-d20600000000
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   tls: true
-  servername: netlivpn5002.whwbbb.workers.dev
+  servername: server9.9966338.xyz
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /imnotarealherox
+    headers:
+      Host: server9.9966338.xyz
+- name: 🌐 其他地区 (Other) 02 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: bd8c736e-cae1-43d7-b573-9672e6ca4989
+  tls: true
+  servername: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/zXLTmz3hE3szn64f?ed=2560
+    headers:
+      Host: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
+- name: 🌐 其他地区 (Other) 03 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 06bfb14e-66cc-48ca-a429-b9301dba2f81
+  tls: true
+  servername: long-firefly-a226.216-ce0.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: long-firefly-a226.216-ce0.workers.dev
+- name: 🌐 其他地区 (Other) 04 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: a747c516-34bd-41b8-8590-a9d1edb79e95
+  tls: true
+  servername: summer-hall-8b23.asddsaasan.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: summer-hall-8b23.asddsaasan.workers.dev
 - name: 🌐 其他地区 (Other) 05 - xiaohe
-  server: 172.67.161.144
-  port: 8443
+  server: 188.114.97.6
+  port: 443
   udp: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
   tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: calm-smoke-1a21.alvlirm6262.workers.dev
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /fp=unsafe
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: calm-smoke-1a21.alvlirm6262.workers.dev
+- name: 🌐 其他地区 (Other) 06 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1bc8fb2a-3bee-4ae0-aa12-957885e63e18
+  tls: true
+  servername: super-mud-8b38.114-a90.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: super-mud-8b38.114-a90.workers.dev
+- name: 🌐 其他地区 (Other) 07 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0926b50d-3a90-18dd-7c8e-0cf100000000
+  tls: true
+  servername: netlivpn4024.bgfjhd.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPNfp=unsafe
+    headers:
+      Host: netlivpn4024.bgfjhd.workers.dev
+- name: 🌐 其他地区 (Other) 08 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1cae67cd-9f09-4c59-94e6-998ed0346c44
+  tls: true
+  servername: lingering-lab-91a6.54-8c3.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lingering-lab-91a6.54-8c3.workers.dev
+- name: 🌐 其他地区 (Other) 09 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1043634e-8d9d-4736-83fa-f14ddc9d464c
+  tls: true
+  servername: dfsuporte.garena.com.ex33r.eu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: id-amz
+    headers:
+      Host: dfsuporte.garena.com.ex33r.eu.cc
+- name: 🌐 其他地区 (Other) 10 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  tls: true
+  servername: edfc774f.69lover.site
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v2/63e9687fa53e441c/stream
+    headers:
+      Host: edfc774f.69lover.site
+- name: 🌐 其他地区 (Other) 11 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 12 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 13 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0779dc74-2464-461f-90ef-874e4cae7fae
+  tls: true
+  servername: weathered-math-1f8b.amiralighasempor010.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiUHQ4YzBma3IxczlPIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19
+    headers:
+      Host: weathered-math-1f8b.amiralighasempor010.workers.dev
+- name: 🌐 其他地区 (Other) 14 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  tls: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /9BozNyvQ8VdRvsYX?ed=2560
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🌐 其他地区 (Other) 15 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  tls: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /9BozNyvQ8VdRvsYX?ed=2560
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🌐 其他地区 (Other) 16 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: d702b5e4-412d-4859-a528-3fc0b91f6fc0
+  tls: true
+  servername: wild-math-3ef2.439.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: wild-math-3ef2.439.workers.dev
+- name: 🌐 其他地区 (Other) 17 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🌐 其他地区 (Other) 18 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
+  tls: true
+  servername: sie704.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sie704.pages.dev
+- name: 🌐 其他地区 (Other) 19 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  client-fingerprint: edge
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 20 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 21 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 20d0a81f-da70-44dc-b9bf-5a5ddab644db
+  tls: true
+  servername: crimson-lab-6cab.402-311.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: crimson-lab-6cab.402-311.workers.dev
+- name: 🌐 其他地区 (Other) 22 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  tls: true
+  servername: trex-panel-nubj0s.samifakor.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/ef859652a80efp=unsafe
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
+- name: 🌐 其他地区 (Other) 23 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  tls: true
+  servername: youxuanku.kdns.fr
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+- name: 🌐 其他地区 (Other) 24 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 77dc177b-79d9-49ac-92e1-2f1011faa5e3
+  tls: true
+  servername: f871a986.69lover.site
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v2/b8ee4ba356df307c/stream
+    headers:
+      Host: f871a986.69lover.site
+- name: 🌐 其他地区 (Other) 25 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 283665ab-54c2-4c59-ac55-5e8388558eba
+  tls: true
+  servername: 27l432tlhnpcojr6u0d3.adfasdfadfasdf.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/oCCSZfAWhGqcVO3WOEnIPj9Z9ke?ed
+    headers:
+      Host: 27l432tlhnpcojr6u0d3.adfasdfadfasdf.workers.dev
+- name: 🌐 其他地区 (Other) 26 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
+  tls: true
+  servername: testmikonim.hydrymhmdamyn7.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /OAZko425kNFF0PpQfp=unsafe
+    headers:
+      Host: testmikonim.hydrymhmdamyn7.workers.dev
+- name: 🌐 其他地区 (Other) 27 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1742863c-ce4b-4bb7-b807-80da29cbec86
+  tls: true
+  servername: icy-fog-9a41.70-a39.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /pyip=proxyip.ΓÇª
+    headers:
+      Host: icy-fog-9a41.70-a39.workers.dev
+- name: 🌐 其他地区 (Other) 28 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8ddedcc7-6c4e-4df3-a190-ac40926f6694
+  tls: true
+  servername: late-boat-fbd7.152-de6.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /pyipfp=unsafe
+    headers:
+      Host: late-boat-fbd7.152-de6.workers.dev
+- name: 🌐 其他地区 (Other) 29 - xiaohe
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  tls: true
+  servername: all.speedtest03.ccwu.cc
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: all.speedtest03.ccwu.cc
+- name: 🌐 其他地区 (Other) 30 - xiaohe
+  server: 172.67.153.156
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  tls: true
+  servername: ccs2g.pai50288.uk
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pai50288
+    headers:
+      Host: ccs2g.pai50288.uk
 proxy-groups:
 - name: PROXIES
   type: select
@@ -75,6 +450,31 @@ proxy-groups:
   - 🌐 其他地区 (Other) 03 - xiaohe
   - 🌐 其他地区 (Other) 04 - xiaohe
   - 🌐 其他地区 (Other) 05 - xiaohe
+  - 🌐 其他地区 (Other) 06 - xiaohe
+  - 🌐 其他地区 (Other) 07 - xiaohe
+  - 🌐 其他地区 (Other) 08 - xiaohe
+  - 🌐 其他地区 (Other) 09 - xiaohe
+  - 🌐 其他地区 (Other) 10 - xiaohe
+  - 🌐 其他地区 (Other) 11 - xiaohe
+  - 🌐 其他地区 (Other) 12 - xiaohe
+  - 🌐 其他地区 (Other) 13 - xiaohe
+  - 🌐 其他地区 (Other) 14 - xiaohe
+  - 🌐 其他地区 (Other) 15 - xiaohe
+  - 🌐 其他地区 (Other) 16 - xiaohe
+  - 🌐 其他地区 (Other) 17 - xiaohe
+  - 🌐 其他地区 (Other) 18 - xiaohe
+  - 🌐 其他地区 (Other) 19 - xiaohe
+  - 🌐 其他地区 (Other) 20 - xiaohe
+  - 🌐 其他地区 (Other) 21 - xiaohe
+  - 🌐 其他地区 (Other) 22 - xiaohe
+  - 🌐 其他地区 (Other) 23 - xiaohe
+  - 🌐 其他地区 (Other) 24 - xiaohe
+  - 🌐 其他地区 (Other) 25 - xiaohe
+  - 🌐 其他地区 (Other) 26 - xiaohe
+  - 🌐 其他地区 (Other) 27 - xiaohe
+  - 🌐 其他地区 (Other) 28 - xiaohe
+  - 🌐 其他地区 (Other) 29 - xiaohe
+  - 🌐 其他地区 (Other) 30 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -85,5 +485,30 @@ proxy-groups:
   - 🌐 其他地区 (Other) 03 - xiaohe
   - 🌐 其他地区 (Other) 04 - xiaohe
   - 🌐 其他地区 (Other) 05 - xiaohe
+  - 🌐 其他地区 (Other) 06 - xiaohe
+  - 🌐 其他地区 (Other) 07 - xiaohe
+  - 🌐 其他地区 (Other) 08 - xiaohe
+  - 🌐 其他地区 (Other) 09 - xiaohe
+  - 🌐 其他地区 (Other) 10 - xiaohe
+  - 🌐 其他地区 (Other) 11 - xiaohe
+  - 🌐 其他地区 (Other) 12 - xiaohe
+  - 🌐 其他地区 (Other) 13 - xiaohe
+  - 🌐 其他地区 (Other) 14 - xiaohe
+  - 🌐 其他地区 (Other) 15 - xiaohe
+  - 🌐 其他地区 (Other) 16 - xiaohe
+  - 🌐 其他地区 (Other) 17 - xiaohe
+  - 🌐 其他地区 (Other) 18 - xiaohe
+  - 🌐 其他地区 (Other) 19 - xiaohe
+  - 🌐 其他地区 (Other) 20 - xiaohe
+  - 🌐 其他地区 (Other) 21 - xiaohe
+  - 🌐 其他地区 (Other) 22 - xiaohe
+  - 🌐 其他地区 (Other) 23 - xiaohe
+  - 🌐 其他地区 (Other) 24 - xiaohe
+  - 🌐 其他地区 (Other) 25 - xiaohe
+  - 🌐 其他地区 (Other) 26 - xiaohe
+  - 🌐 其他地区 (Other) 27 - xiaohe
+  - 🌐 其他地区 (Other) 28 - xiaohe
+  - 🌐 其他地区 (Other) 29 - xiaohe
+  - 🌐 其他地区 (Other) 30 - xiaohe
 rules:
 - MATCH,PROXIES
