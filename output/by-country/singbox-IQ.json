@@ -6,53 +6,25 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.21.91.50",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "3e43ffd1-3f7b-45b0-a955-c249010c7ebc",
+      "uuid": "20e295db-a6af-4006-bfd6-91453f169968",
       "tls": {
         "enabled": true,
-        "server_name": "Open-39.AVL-a47261.WorKErS.DeV",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "057.electrocellco-cf-057.workers.dev",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/9Vd7GxzImsNPSKUT9uIK0uYIARIV?ed=2560",
+        "path": "/eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
         "headers": {
-          "Host": "open-39.avl-a47261.workers.dev"
+          "Host": "057.electrocellco-cf-057.workers.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 02 - xiaohe",
-      "server": "193.56.135.212",
-      "server_port": 9543,
-      "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandexcloud.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
-          "short_id": "123abcde"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 03 - xiaohe",
       "server": "193.56.135.137",
       "server_port": 9543,
       "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
@@ -77,8 +49,7 @@
       "outbounds": [
         "auto",
         "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe",
-        "🇮🇶 IQ 03 - xiaohe"
+        "🇮🇶 IQ 02 - xiaohe"
       ]
     },
     {
@@ -86,8 +57,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇶 IQ 01 - xiaohe",
-        "🇮🇶 IQ 02 - xiaohe",
-        "🇮🇶 IQ 03 - xiaohe"
+        "🇮🇶 IQ 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

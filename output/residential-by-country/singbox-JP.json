@@ -6,31 +6,31 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "129.153.71.28",
-      "server_port": 28863,
-      "uuid": "b77ddc1c-32a2-458d-a766-bd781fa7c7e9",
+      "server": "128.241.25.3",
+      "server_port": 30021,
+      "uuid": "afec813e-a5c7-432d-be48-2803c30eea4e",
       "tls": {
         "enabled": true,
-        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
+        "server_name": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi",
+        "path": "/@Marisa_kristifp=chrome",
         "headers": {
-          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+          "Host": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-      "server": "2.26.91.98",
-      "server_port": 1443,
-      "uuid": "487273f5-4aeb-4631-b197-2e169dffc285",
+      "server": "128.241.25.11",
+      "server_port": 30021,
+      "uuid": "c7dcd436-76e0-4f8f-9a28-d9c20bff304a",
       "tls": {
         "enabled": true,
-        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
+        "server_name": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -41,7 +41,7 @@
         "type": "ws",
         "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+          "Host": "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
         }
       }
     },

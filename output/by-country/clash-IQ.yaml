@@ -5,34 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 104.21.91.50
+  server: 188.114.97.6
   port: 443
   udp: true
   type: vless
-  uuid: 3e43ffd1-3f7b-45b0-a955-c249010c7ebc
+  uuid: 20e295db-a6af-4006-bfd6-91453f169968
   tls: true
-  servername: Open-39.AVL-a47261.WorKErS.DeV
+  servername: 057.electrocellco-cf-057.workers.dev
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/9Vd7GxzImsNPSKUT9uIK0uYIARIV?ed=2560
+    path: /eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: open-39.avl-a47261.workers.dev
+      Host: 057.electrocellco-cf-057.workers.dev
 - name: 🇮🇶 IQ 02 - xiaohe
-  server: 193.56.135.212
-  port: 9543
-  udp: true
-  type: vless
-  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: 123abcde
-  servername: storage.yandexcloud.net
-  client-fingerprint: safari
-- name: 🇮🇶 IQ 03 - xiaohe
   server: 193.56.135.137
   port: 9543
   udp: true
@@ -52,7 +38,6 @@ proxy-groups:
   - AUTO
   - 🇮🇶 IQ 01 - xiaohe
   - 🇮🇶 IQ 02 - xiaohe
-  - 🇮🇶 IQ 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -60,6 +45,5 @@ proxy-groups:
   proxies:
   - 🇮🇶 IQ 01 - xiaohe
   - 🇮🇶 IQ 02 - xiaohe
-  - 🇮🇶 IQ 03 - xiaohe
 rules:
 - MATCH,PROXIES

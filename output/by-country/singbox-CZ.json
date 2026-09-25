@@ -6,13 +6,16 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev",
+      "server": "104.21.91.50",
       "server_port": 443,
-      "uuid": "527451fe-ee1f-4e6f-94ca-808f055f7c9b",
+      "uuid": "3e43ffd1-3f7b-45b0-a955-c249010c7ebc",
       "tls": {
         "enabled": true,
-        "server_name": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev",
+        "server_name": "Open-39.AVL-a47261.WorKErS.DeV",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,7 +23,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/ERYN0G44hia16zhR"
+        "path": "/vl/9Vd7GxzImsNPSKUT9uIK0uYIARIV?ed=2560",
+        "headers": {
+          "Host": "open-39.avl-a47261.workers.dev"
+        }
       }
     },
     {

@@ -23,7 +23,7 @@
         "server_name": "at.quattro-tech.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -41,15 +41,8 @@
       "tls": {
         "enabled": true,
         "server_name": "filesconvert.org",
-        "insecure": true
+        "insecure": false
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe",
-      "server": "31.56.222.61",
-      "server_port": 17852,
-      "uuid": "79251d3c-aabc-475c-b598-67263479b382"
     },
     {
       "type": "selector",
@@ -58,8 +51,7 @@
         "auto",
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 04 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
       ]
     },
     {
@@ -68,8 +60,7 @@
       "outbounds": [
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 04 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
