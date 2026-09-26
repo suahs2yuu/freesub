@@ -5,14 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
-  server: 18.169.126.60
+  server: 35.176.47.30
   port: 22222
   udp: true
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  server: 35.176.47.30
-  port: 22223
+  server: 18.169.126.60
+  port: 22224
   udp: true
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
@@ -39,6 +39,12 @@ proxies:
   tls: true
   servername: ireland-new-ded1.failspace.top
   skip-cert-verify: false
+- name: 🇮🇪 爱尔兰 (Ireland) 05 - xiaohe
+  server: 18.169.126.60
+  port: 22223
+  udp: true
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +54,7 @@ proxy-groups:
   - 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
   - 🇮🇪 爱尔兰 (Ireland) 03 - xiaohe
   - 🇮🇪 爱尔兰 (Ireland) 04 - xiaohe
+  - 🇮🇪 爱尔兰 (Ireland) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,5 +64,6 @@ proxy-groups:
   - 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
   - 🇮🇪 爱尔兰 (Ireland) 03 - xiaohe
   - 🇮🇪 爱尔兰 (Ireland) 04 - xiaohe
+  - 🇮🇪 爱尔兰 (Ireland) 05 - xiaohe
 rules:
 - MATCH,PROXIES

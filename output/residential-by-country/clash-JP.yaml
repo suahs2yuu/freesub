@@ -9,30 +9,29 @@ proxies:
   port: 28863
   udp: true
   type: vless
-  uuid: f9819b5b-3231-4b04-b1ca-f1134b25a212
+  uuid: fc37d72f-91bc-4d82-b52d-e57139f5685d
   tls: true
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+  servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /@Marisa_kristifp=chrome
     headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+      Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
 - name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
-  server: 203.137.165.164
-  port: 57554
+  server: 129.151.64.169
+  port: 31867
   udp: true
   type: vless
-  uuid: dbed24c3-4d22-48b2-8ccb-8e168d7f8b40
+  uuid: 73f96511-d245-4334-a34f-9d7a8551e656
   tls: true
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /@Marisa_kristi
     headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
