@@ -6,23 +6,22 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "188.114.97.6",
+      "server": "cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev",
       "server_port": 443,
-      "uuid": "e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f",
+      "uuid": "d8c14c5c-a80a-4f6f-a5fb-52071849c443",
       "tls": {
         "enabled": true,
-        "server_name": "ezaccess-project-f62c30.pages.dev",
+        "server_name": "cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev",
         "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "path": "/eyJqdW5rIjoiZTFWRGJFS0NUd2F2NkRmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ",
         "headers": {
-          "Host": "ezaccess-project-f62c30.pages.dev"
+          "Host": "cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev"
         }
       }
     },

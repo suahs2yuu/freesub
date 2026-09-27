@@ -5,20 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 188.114.97.6
+  server: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
   port: 443
   udp: true
   type: vless
-  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+  uuid: d8c14c5c-a80a-4f6f-a5fb-52071849c443
   tls: true
-  servername: ezaccess-project-f62c30.pages.dev
+  servername: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /eyJqdW5rIjoiZTFWRGJFS0NUd2F2NkRmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
-      Host: ezaccess-project-f62c30.pages.dev
+      Host: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
