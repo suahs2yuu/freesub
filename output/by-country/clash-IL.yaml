@@ -31,7 +31,7 @@ proxies:
   servername: www.apple.com
   client-fingerprint: firefox
 - name: 🇮🇱 以色列 (Israel) 03 - xiaohe
-  server: 193.202.10.137
+  server: de2.dzvn.space
   port: 2291
   udp: true
   type: vless
