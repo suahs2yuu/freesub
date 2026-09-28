@@ -16,9 +16,9 @@ proxies:
     public-key: iI1pc8k9-mIPHL2Dga-4n4h3KoBT68lN434nglpgm2M
     short-id: f3a9c21e8b6d4571
   servername: table.vkroom-it-service.xyz
-  client-fingerprint: chrome
+  client-fingerprint: safari
 - name: 🇮🇷 IR 02 - xiaohe
-  server: afra4.nimbaha9.ir
+  server: 185.143.233.130
   port: 2052
   udp: true
   type: vless
