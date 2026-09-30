@@ -6,12 +6,20 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "153.76.185.155",
-      "server_port": 3090,
-      "uuid": "43b15d01-8cc5-40ea-b42a-cb1a727224dc",
+      "server": "172.67.141.75",
+      "server_port": 443,
+      "uuid": "de78c0b1-c5c8-412a-bd92-430d1f2e2642",
+      "tls": {
+        "enabled": true,
+        "server_name": "frosty-pond-7436.shhabbyat914.workers.dev",
+        "insecure": false
+      },
       "transport": {
-        "type": "grpc",
-        "service_name": "vless"
+        "type": "ws",
+        "path": "/NmrU9ImDG7jA7oFEem",
+        "headers": {
+          "Host": "frosty-pond-7436.shhabbyat914.workers.dev"
+        }
       }
     },
     {
