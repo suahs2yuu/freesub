@@ -5,21 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.167.78
-  port: 8443
+  server: cdn.8211992.xyz
+  port: 443
   udp: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
   tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: mao.mao114514.kdns.fr
   skip-cert-verify: false
+  client-fingerprint: edge
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /glasspanel/guest000_0_5de14443985f/
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: mao.mao114514.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
