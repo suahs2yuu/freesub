@@ -5,20 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: cdn.8211992.xyz
+  server: ccs2g.pai50288.uk
   port: 443
   udp: true
   type: vless
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
   tls: true
-  servername: mao.mao114514.kdns.fr
+  servername: ccs2g.pai50288.uk
   skip-cert-verify: false
-  client-fingerprint: edge
   network: ws
   ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: mao.mao114514.kdns.fr
+    path: /pai50288
 proxy-groups:
 - name: PROXIES
   type: select
