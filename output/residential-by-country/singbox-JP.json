@@ -6,26 +6,20 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "172.237.5.208",
-      "server_port": 2053,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
+      "server": "45.77.241.190",
+      "server_port": 8441,
+      "uuid": "8a9dff00-0705-4c1b-9126-8c1bdc8b5d0a",
       "tls": {
         "enabled": true,
-        "server_name": "notls.lukongtou.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/Telegram-WangCai2🇨🇳",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "notls.lukongtou.eu.org"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+          "Host": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+        }
       }
     },
     {
