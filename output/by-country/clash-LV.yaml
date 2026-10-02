@@ -28,7 +28,7 @@ proxies:
   reality-opts:
     public-key: cD8mVX41lqyVGCuPz0-tQWcNqkMxiPZxU7JJsyyNAEI
   servername: omvpn.info
-  client-fingerprint: safari
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

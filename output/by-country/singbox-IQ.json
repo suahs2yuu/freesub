@@ -5,18 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "ccs2g.pai50288.uk",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "172.64.149.54",
       "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "uuid": "fe34b5df-e634-4c83-a057-e53f41ce8e27",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
-        "insecure": false
+        "server_name": "late-lab-d6a2.ciwoda8715.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288"
+        "path": "/eyJqdW5rIjoiQ3dmV1d4OUFQdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "headers": {
+          "Host": "late-lab-d6a2.ciwoda8715.workers.dev"
+        }
       }
     },
     {
@@ -24,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
