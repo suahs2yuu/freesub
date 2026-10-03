@@ -4,22 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": false
-      },
+      "server": "freesocks.work",
+      "server_port": 2052,
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
