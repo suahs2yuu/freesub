@@ -13,19 +13,32 @@ proxies:
   sni: fi01.clgate.network
   skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: 185.218.194.68
+  server: 2.27.207.30
   port: 443
   udp: true
   type: vless
-  uuid: b97e287f-a24e-0021-a103-7e7ecef83139
+  uuid: a5dd2dd9-0995-449e-be67-4a409890dc42
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: e1f8a3b6
-  servername: www.amd.com
-  client-fingerprint: qq
+    public-key: nG28Y1q-Ul2oBH-FegAkzGtvY6IRCIwras1k8CLwdGo
+    short-id: da4d87fa
+  servername: jdbdb.huinaduok.fans
+  client-fingerprint: random
 - name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  server: 65.108.3.59
+  port: 443
+  udp: true
+  type: vless
+  uuid: 8df2e661-6f46-471b-9133-7fc13a0daa35
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: jDoORbrtDrvAlFSo19CJbc99C4ev8SAo1MwczSUt9no
+    short-id: 90ec9bba2019
+  servername: web.eitaa.com
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -37,7 +50,7 @@ proxies:
     short-id: d368b94e275ab080
   servername: www.google.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
   server: 77.42.28.120
   port: 1280
   udp: true
@@ -48,32 +61,7 @@ proxies:
     path: /
     headers:
       Host: is1-ssl.mzstatic.com
-- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
-  server: 170.168.4.52
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4643976f-85fa-40cf-9e58-ea28b50f253b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
-  servername: finl11.ali-bard.online
-  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
-  server: 5.61.91.221
-  port: 443
-  udp: true
-  type: vless
-  uuid: 03446511-2806-0021-b02f-f10d2d3a33c6
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: 4a7b1c8d
-  servername: cdn-up.perecbass.ru
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 07 - xiaohe
   server: 144.31.27.215
   port: 43000
   udp: true
@@ -85,32 +73,38 @@ proxies:
     public-key: dxCQnOekn14riFxt3vdwDNydvW47FsmwFG6BJ2mUgEg
     short-id: 568d87a47271344e
   servername: 144.31.27.215
-  client-fingerprint: random
-- name: 🇫🇮 芬兰 (Finland) 08 - xiaohe
-  server: 34.88.172.173
+  client-fingerprint: edge
+- name: 🇫🇮 芬兰 (Finland) 07 - xiaohe
+  server: 185.242.247.44
   port: 443
   udp: true
   type: vless
-  uuid: 06e58eed-afc8-4cbf-a0bf-1b7b42e1a87f
+  uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
   tls: true
   reality-opts:
-    public-key: wJwb5WExAnmGiq9mmjtMvoA8E-k10u5VvPegm9RomWU
-    short-id: d4b34bc6b3d2b5ab
-  servername: www.cloudflare.com
+    public-key: aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU
+  servername: example.org
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 09 - xiaohe
-  server: 81.94.148.120
-  port: 7449
+- name: 🇫🇮 芬兰 (Finland) 08 - xiaohe
+  server: 95.163.215.8
+  port: 6002
   udp: true
   type: vless
-  uuid: 2690c11f-7258-43fe-aeb9-d90f93a3c317
-  flow: xtls-rprx-vision
+  uuid: 8e8ea5d2-6941-40fb-9efe-f9062b11b2b9
   tls: true
-  reality-opts:
-    public-key: blW-TdkBvKRn4-lkM64Cn2QgfOqjCRYRQ9upE6RPt3c
-    short-id: c0c41dc21cf7c18e
-  servername: passport.yandex.ru
+  servername: fin1.centermass.net
+  skip-cert-verify: false
   client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: media.playback.v1.SessionGateway
+- name: 🇫🇮 芬兰 (Finland) 09 - xiaohe
+  server: 45.149.114.171
+  port: 777
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
 proxy-groups:
 - name: PROXIES
   type: select

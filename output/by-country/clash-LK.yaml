@@ -13,14 +13,14 @@ proxies:
   tls: true
   servername: trackydev.site
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: random
   network: ws
   ws-opts:
     path: /
     headers:
       Host: trackydev.site
 - name: 🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe
-  server: support.zoom.us
+  server: free.sahanwickramasinghe.me
   port: 80
   udp: true
   type: vless
@@ -28,8 +28,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
 proxy-groups:
 - name: PROXIES
   type: select
